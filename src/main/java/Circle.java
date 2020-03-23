@@ -33,7 +33,6 @@ public class Circle implements Shape {
 
     @Override
     public void moveBy(double x, double y) {
-        this.origin.setX(x);
-        this.origin.setY(y);
+        this.origin.moveBy(x, y);
     }
 }
